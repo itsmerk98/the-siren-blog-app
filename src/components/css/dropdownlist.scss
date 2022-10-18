@@ -1,0 +1,29 @@
+@import './variable.scss';
+
+.dropdown-mune {
+    display: flex;
+    text-align: center;
+    width: 100%;
+
+    & .mune-link {
+        margin: auto;
+        padding: 10px;
+        width: 100%;
+        border-bottom: 1px solid $light-border;
+        text-decoration: none;
+        color: $dark-gray-font;
+        // font-size: 13px;
+    }
+    & .mune-link:hover{
+        color: black;
+        font-weight: 700;
+        letter-spacing: 1px;
+        text-decoration: underline rgb(252, 119, 119)  2px;
+        // transition-delay: s;
+        transition-duration: .2s;
+    }
+    
+}
+.dropdown-mune:nth-last-child(1){
+    border-bottom: none;
+}
