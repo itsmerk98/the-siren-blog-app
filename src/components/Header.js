@@ -37,7 +37,7 @@ const Header = () => {
 
       </div>
       <nav className={`nav-bar ${ open ? 'active' : 'inactive'}`} >
-        <DropdownList text='Home' path='/the-siren' />
+        <DropdownList text='Home' path='/' />
         <DropdownList text='Bollywood' path='/bollywood' />
         <DropdownList text='Technology' path='/technology' />
         <DropdownList text='Hollywood' path='/hollywood' />
